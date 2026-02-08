@@ -7,13 +7,14 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <div class="gradient"></div>
 
 <header class="glass hero">
 
-<nav>
+<nav class="nav-wrap">
 <ul class="nav">
 <li><a href="#home">Home</a></li>
 <li><a href="#education">Education</a></li>
@@ -26,7 +27,7 @@
 <div id="home" class="hero-wrap">
 
 <figure class="hero-img">
-<img src="PhotoJNU.jpg">
+<img src="PhotoJNU.jpg" alt="Prashant Shukla">
 <figcaption>MCA Student | Developer</figcaption>
 </figure>
 
@@ -37,32 +38,13 @@
 <h1>Prashant Shukla</h1>
 
 <address>
-
-<p>
-<a href="tel:9628925366">9628925366</a>
-</p>
-
-<p>
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=thesprashant@gmail.com" target="_blank">
-thesprashant@gmail.com
-</a>
-</p>
-
-<p>
-<a href="https://linkedin.com/in/thesprashant" target="_blank">
-linkedin.com/in/thesprashant
-</a>
-</p>
-
+<p><a href="tel:9628925366">9628925366</a></p>
+<p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=thesprashant@gmail.com" target="_blank">thesprashant@gmail.com</a></p>
+<p><a href="https://linkedin.com/in/thesprashant" target="_blank">linkedin.com/in/thesprashant</a></p>
 </address>
 
 <div class="audio-box">
-
-<audio controls>
-<source src="Intro.m4a" type="audio/mp4">
-Your browser does not support the audio element.
-</audio>
-
+<audio controls src="Intro.m4a"></audio>
 </div>
 
 <blockquote>
@@ -77,7 +59,6 @@ Building secure and intelligent systems that solve real-world problems.
 <main class="grid">
 
 <section id="education" class="glass card">
-
 <h2>Education</h2>
 
 <div class="table-wrap">
@@ -90,7 +71,6 @@ Building secure and intelligent systems that solve real-world problems.
 <th>Year</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>NIT Kurukshetra</td>
@@ -98,14 +78,12 @@ Building secure and intelligent systems that solve real-world problems.
 <td>9.62 CGPA</td>
 <td>2024–Present</td>
 </tr>
-
 <tr>
 <td>CSJMU Kanpur</td>
 <td>BSc</td>
 <td>8.23 CGPA</td>
 <td>2021–2024</td>
 </tr>
-
 <tr>
 <td>Sughar Singh Academy</td>
 <td>12th</td>
@@ -115,37 +93,16 @@ Building secure and intelligent systems that solve real-world problems.
 </tbody>
 </table>
 </div>
-
 </section>
 
 <section id="skills" class="glass card">
-
 <h2>Skills</h2>
 
-<div class="skill">
-<p>Python</p>
-<progress value="90" max="100"></progress>
-</div>
-
-<div class="skill">
-<p>Java</p>
-<progress value="92" max="100"></progress>
-</div>
-
-<div class="skill">
-<p>SQL</p>
-<progress value="85" max="100"></progress>
-</div>
-
-<div class="skill">
-<p>Flask</p>
-<progress value="80" max="100"></progress>
-</div>
-
-<div class="skill">
-<p>Node.js</p>
-<progress value="75" max="100"></progress>
-</div>
+<div class="skill"><p>Python</p><progress value="90" max="100"></progress></div>
+<div class="skill"><p>Java</p><progress value="92" max="100"></progress></div>
+<div class="skill"><p>SQL</p><progress value="85" max="100"></progress></div>
+<div class="skill"><p>Flask</p><progress value="80" max="100"></progress></div>
+<div class="skill"><p>Node.js</p><progress value="75" max="100"></progress></div>
 
 <div class="systems">
 <h3>Systems</h3>
@@ -155,15 +112,12 @@ Building secure and intelligent systems that solve real-world problems.
 <li>Git</li>
 </ul>
 </div>
-
 </section>
 
 <section id="projects" class="glass card full">
-
 <h2>Projects</h2>
 
 <ol>
-
 <li>
 <h4>DSAHelper Platform</h4>
 <ul>
@@ -190,24 +144,18 @@ Building secure and intelligent systems that solve real-world problems.
 <li>Sharpe ratio improvements</li>
 </ul>
 </li>
-
 </ol>
-
 </section>
 
 <section id="contact" class="glass card full">
-
 <h2>Contact Me</h2>
 
 <form class="contact-form">
-
 <input type="text" placeholder="Your name">
 <input type="email" placeholder="Your email">
 <textarea rows="4" placeholder="Message"></textarea>
-<button>Send Message</button>
-
+<button type="submit">Send Message</button>
 </form>
-
 </section>
 
 </main>
